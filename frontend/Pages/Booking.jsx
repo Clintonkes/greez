@@ -66,7 +66,7 @@ export default function Booking() {
                 </select>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <input type="date" value={formData.preferred_date} onChange={(e) => setFormData({...formData, preferred_date: e.target.value})} className="input-field" required />
+                <input type="date" min={new Date().toISOString().split('T')[0]} value={formData.preferred_date} onChange={(e) => setFormData({...formData, preferred_date: e.target.value})} className="input-field" required />
                 <select value={formData.preferred_time} onChange={(e) => setFormData({...formData, preferred_time: e.target.value})} className="input-field" required>
                   <option value="">Preferred Time *</option>
                   <option>Morning (8AM - 12PM)</option>

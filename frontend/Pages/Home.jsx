@@ -11,7 +11,7 @@ const serviceList = [
     desc: "Complete home cleaning including dusting, vacuuming, mopping, and sanitizing all surfaces."
   },
   {
-    img: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=600&q=80",
+    img: "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=600&q=80",
     title: "Commercial Cleaning",
     desc: "Professional office cleaning, desk sanitization, floor care, and common area maintenance."
   },
@@ -21,17 +21,17 @@ const serviceList = [
     desc: "Thorough deep clean of neglected areas, appliances, baseboards, and hard-to-reach spots."
   },
   {
-    img: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&q=80",
+    img: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=600&q=80",
     title: "Move In/Out Service",
     desc: "Comprehensive cleaning for property transitions, leaving every space spotless."
   },
   {
-    img: "https://images.unsplash.com/photo-1580655653885-65763b2597d0?w=600&q=80",
+    img: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=600&q=80",
     title: "Post-Construction",
     desc: "Specialized cleanup after renovations, removing dust, debris, and construction residue."
   },
   {
-    img: "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?w=600&q=80",
+    img: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=600&q=80",
     title: "Recurring Maintenance",
     desc: "Scheduled weekly, bi-weekly, or monthly cleaning to keep your space consistently fresh."
   }

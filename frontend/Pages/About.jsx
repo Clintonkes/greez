@@ -54,14 +54,6 @@ export default function About() {
         </div>
       </section>
 
-      <section className="w-full overflow-hidden">
-        <img
-          src="https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?w=1920&q=80"
-          alt="Professional cleaning equipment"
-          className="w-full h-[400px] lg:h-[500px] object-cover"
-        />
-      </section>
-
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
