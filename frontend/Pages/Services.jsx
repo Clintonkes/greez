@@ -8,57 +8,50 @@ const services = [
   {
     id: 1,
     title: "Home Cleaning",
-    description: "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.",
+    description: "Our comprehensive home cleaning service covers every room from top to bottom. We dust, vacuum, mop, and sanitize all surfaces, leaving your home fresh, clean, and healthy for you and your family.",
     img: "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=800&q=80",
     icon: "M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
   },
   {
     id: 2,
-    title: "Cloth Ironing",
-    description: "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.",
-    img: "https://images.unsplash.com/photo-1600880706871-5e3b218bab05?w=800&q=80",
-    icon: "M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"
-  },
-  {
-    id: 3,
     title: "Laundry Services",
-    description: "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.",
-    img: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&q=80",
+    description: "Let us take the hassle out of laundry. We handle washing, drying, folding, and ironing your clothes with the utmost care, using gentle detergents that are safe for all fabric types.",
+    img: "https://images.unsplash.com/photo-1545173168-9f1947eebb7f?w=800&q=80",
     icon: "M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01"
   },
   {
-    id: 4,
+    id: 3,
     title: "Washing Up",
-    description: "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.",
+    description: "Our dishwashing and kitchen cleaning service ensures your dishes, cookware, and countertops are thoroughly cleaned and sanitized. We leave your kitchen sparkling and organized after every visit.",
     img: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80",
     icon: "M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"
   },
   {
-    id: 5,
+    id: 4,
     title: "Window Cleaning",
-    description: "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.",
+    description: "Our professional window cleaning service removes dirt, smudges, and streaks from all your windows, leaving them crystal clear. We clean both interior and exterior surfaces for a brilliant shine.",
     img: "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?w=800&q=80",
     icon: "M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.066 2.573c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.573 1.066c-.426 1.756-2.924 1.756-3.35 0 0 0 0 0 0 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.066-2.573c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z M15 12a3 3 0 11-6 0 3 3 0 016 0z"
   },
   {
-    id: 6,
+    id: 5,
     title: "Carpet Cleaning",
-    description: "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.",
-    img: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=800&q=80",
+    description: "Our deep carpet cleaning service removes embedded dirt, stains, and allergens using hot water extraction and eco-friendly solutions. Your carpets will look refreshed and last longer.",
+    img: "https://images.unsplash.com/photo-1561214078-f3247647fc5e?w=800&q=80",
     icon: "M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
   },
   {
-    id: 7,
+    id: 6,
     title: "Roof Cleaning",
-    description: "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.",
-    img: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&q=80",
+    description: "Our roof cleaning service removes moss, algae, dirt, and debris safely without damaging your shingles. We protect your roof's integrity while restoring its original appearance.",
+    img: "https://images.unsplash.com/photo-1563453392212-326f5e854473?w=800&q=80",
     icon: "M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
   },
   {
-    id: 8,
+    id: 7,
     title: "Office Cleaning",
-    description: "Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.",
-    img: "https://images.unsplash.com/photo-1600880706871-5e3b218bab05?w=800&q=80",
+    description: "Our commercial office cleaning keeps your workplace spotless and professional. We sanitize desks, empty trash, vacuum carpets, and clean common areas so your team can focus on work.",
+    img: "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=800&q=80",
     icon: "M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"
   }
 ]
@@ -103,7 +96,7 @@ export default function Services() {
                         </div>
                         <h3 className="text-2xl font-bold text-gray-900 mb-4" style={{ fontFamily: "'DM Sans', sans-serif" }}>{service.title}</h3>
                         <p className="text-gray-500 mb-6 leading-relaxed">{service.description}</p>
-                        <Link to="/booking" className="btn-primary">Read More</Link>
+                        <Link to="/booking" className="btn-primary">Book This Service</Link>
                       </div>
                     </>
                   ) : (
@@ -119,7 +112,7 @@ export default function Services() {
                         </div>
                         <h3 className="text-2xl font-bold text-gray-900 mb-4" style={{ fontFamily: "'DM Sans', sans-serif" }}>{service.title}</h3>
                         <p className="text-gray-500 mb-6 leading-relaxed">{service.description}</p>
-                        <Link to="/booking" className="btn-primary">Read More</Link>
+                        <Link to="/booking" className="btn-primary">Book This Service</Link>
                       </div>
                     </>
                   )}

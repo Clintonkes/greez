@@ -19,7 +19,7 @@ export default function Testimonials() {
       <Navbar />
       <section className="relative bg-[var(--color-primary-dark)] text-white py-20 lg:py-28">
         <div className="absolute inset-0 overflow-hidden">
-          <img src="https://images.unsplash.com/photo-1600880706871-5e3b218bab05?w=1920&q=80" alt="" className="w-full h-full object-cover opacity-10" />
+          <img src="https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=1920&q=80" alt="" className="w-full h-full object-cover opacity-10" />
         </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <span className="text-green-300 font-semibold text-sm uppercase tracking-widest">Testimonials</span>

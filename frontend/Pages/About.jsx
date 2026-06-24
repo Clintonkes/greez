@@ -56,7 +56,7 @@ export default function About() {
 
       <section className="w-full overflow-hidden">
         <img
-          src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=1920&q=80"
+          src="https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?w=1920&q=80"
           alt="Professional cleaning equipment"
           className="w-full h-[400px] lg:h-[500px] object-cover"
         />

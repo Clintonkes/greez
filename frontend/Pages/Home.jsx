@@ -11,7 +11,7 @@ const serviceList = [
     desc: "Complete home cleaning including dusting, vacuuming, mopping, and sanitizing all surfaces."
   },
   {
-    img: "https://images.unsplash.com/photo-1600880706871-5e3b218bab05?w=600&q=80",
+    img: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=600&q=80",
     title: "Commercial Cleaning",
     desc: "Professional office cleaning, desk sanitization, floor care, and common area maintenance."
   },
@@ -26,7 +26,7 @@ const serviceList = [
     desc: "Comprehensive cleaning for property transitions, leaving every space spotless."
   },
   {
-    img: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&q=80",
+    img: "https://images.unsplash.com/photo-1580655653885-65763b2597d0?w=600&q=80",
     title: "Post-Construction",
     desc: "Specialized cleanup after renovations, removing dust, debris, and construction residue."
   },
@@ -188,7 +188,7 @@ export default function Home() {
             <ScrollReveal animation="scroll-animate-right">
               <div className="aspect-[3/4] rounded-2xl overflow-hidden shadow-xl">
                 <img
-                  src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=800&q=80"
+                    src="https://images.unsplash.com/photo-1563453392212-326f5e854473?w=800&q=80"
                   alt="Professional cleaning equipment"
                   className="w-full h-full object-cover"
                 />

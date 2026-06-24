@@ -29,7 +29,7 @@ export default function Contact() {
       <Navbar />
       <section className="relative bg-[var(--color-primary-dark)] text-white py-24 lg:py-32">
         <div className="absolute inset-0">
-          <img src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=1920&q=80" alt="" className="w-full h-full object-cover opacity-20" />
+          <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1920&q=80" alt="" className="w-full h-full object-cover opacity-20" />
         </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <span className="text-green-300 font-semibold text-sm uppercase tracking-widest">Contact</span>
