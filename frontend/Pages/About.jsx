@@ -5,104 +5,88 @@ import ScrollReveal from '../components/ScrollReveal'
 import { Link } from 'react-router-dom'
 
 export default function About() {
-  const features = [
-    {
-      icon: "M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z",
-      title: "Experienced Professionals",
-      desc: "Our team has years of experience and ongoing training in professional cleaning techniques and safety protocols."
-    },
-    {
-      icon: "M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z",
-      title: "Satisfaction Guaranteed",
-      desc: "We're not satisfied until you're completely happy with our work. We'll come back to fix any areas of concern."
-    },
-    {
-      icon: "M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z",
-      title: "Eco-Friendly Products",
-      desc: "We use safe, environmentally friendly cleaning products that are gentle on your family and pets."
-    },
-    {
-      icon: "M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z",
-      title: "Fully Insured & Bonded",
-      desc: "Your peace of mind matters. We are fully insured and bonded, and all our cleaners undergo background checks."
-    },
-    {
-      icon: "M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z",
-      title: "Cutting-Edge Equipment",
-      desc: "We invest in the latest cleaning technology including HEPA filtration and hospital-grade disinfectants."
-    },
-    {
-      icon: "M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z M15 11a3 3 0 11-6 0 3 3 0 016 0z",
-      title: "Local & Trusted",
-      desc: "Proudly serving Netcong, New Jersey and surrounding areas. We're your neighbors, committed to our community."
-    }
-  ]
-
   return (
     <>
       <Navbar />
-      <section className="relative bg-[var(--color-primary-dark)] text-white py-20 lg:py-28">
-        <div className="absolute inset-0 overflow-hidden">
-          <img src="https://images.unsplash.com/photo-1600880706871-5e3b218bab05?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80" alt="" className="w-full h-full object-cover opacity-10" />
+      <section className="relative bg-[var(--color-primary-dark)] text-white py-24 lg:py-32">
+        <div className="absolute inset-0">
+          <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1920&q=80" alt="" className="w-full h-full object-cover opacity-20" />
         </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <span className="text-green-300 font-semibold text-sm uppercase tracking-widest">About Us</span>
-          <h1 className="text-4xl lg:text-5xl font-bold mt-4 mb-4" style={{ fontFamily: "'DM Sans', sans-serif" }}>About Greerz LLC</h1>
+          <span className="text-green-300 font-semibold text-sm uppercase tracking-widest">About</span>
+          <h1 className="text-5xl lg:text-6xl font-bold mt-4 mb-4" style={{ fontFamily: "'DM Sans', sans-serif" }}>About Greerz LLC</h1>
           <p className="text-green-200 max-w-2xl mx-auto">Learn about our story, values, and commitment to excellence.</p>
         </div>
       </section>
 
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-24">
+          <ScrollReveal>
+            <div className="text-center mb-16">
+              <span className="text-[var(--color-primary)] font-semibold text-sm uppercase tracking-widest">Who We Are</span>
+              <h2 className="section-title mt-3">More Than 10 Years of Experience</h2>
+            </div>
+          </ScrollReveal>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             <ScrollReveal animation="scroll-animate-left">
-              <div>
-                <span className="text-[var(--color-primary)] font-semibold text-sm uppercase tracking-widest">Our Story</span>
-                <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mt-3 mb-6" style={{ fontFamily: "'DM Sans', sans-serif" }}>Exceptional Level of Cleaning Services</h2>
-                <p className="text-gray-500 mb-4 leading-relaxed">
-                  Founded with a commitment to excellence, Greerz LLC has built a reputation as one of the leading providers of residential and commercial cleaning solutions in Netcong, New Jersey, and surrounding areas.
-                </p>
-                <p className="text-gray-500 mb-4 leading-relaxed">
-                  Our continuous pursuit for perfection has resulted in consistent growth each year. Our focus is to listen to our clients, understand their needs, and provide the exceptional level of residential and commercial cleaning service they deserve.
-                </p>
+              <div className="card p-8 h-full">
+                <div className="w-14 h-14 bg-[var(--color-primary-lightest)] rounded-2xl flex items-center justify-center mb-5">
+                  <svg className="w-7 h-7 text-[var(--color-primary)]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>
+                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-4" style={{ fontFamily: "'DM Sans', sans-serif" }}>Exceptional Level of Cleaning Services</h3>
                 <p className="text-gray-500 leading-relaxed">
-                  Our professional team uses eco-friendly products and advanced techniques to ensure your space is not just clean, but truly spotless. We treat every space with the care and attention it deserves.
+                  Founded with a commitment to excellence, Greerz LLC has built a reputation as one of the leading providers of residential and commercial cleaning solutions in Netcong, New Jersey, and surrounding areas. Our continuous pursuit for perfection has resulted in consistent growth each year.
                 </p>
               </div>
             </ScrollReveal>
             <ScrollReveal animation="scroll-animate-right">
-              <div className="relative">
-                <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-xl">
-                  <img src="https://images.unsplash.com/photo-1600880706871-5e3b218bab05?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Our Team" className="w-full h-full object-cover" />
+              <div className="card p-8 h-full">
+                <div className="w-14 h-14 bg-[var(--color-primary-lightest)] rounded-2xl flex items-center justify-center mb-5">
+                  <svg className="w-7 h-7 text-[var(--color-primary)]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" /></svg>
                 </div>
-                <div className="absolute -bottom-6 -left-6 bg-[var(--color-primary)] rounded-2xl p-5 shadow-lg hidden lg:block">
-                  <p className="text-white text-2xl font-bold">10+</p>
-                  <p className="text-green-200 text-sm">Years Experience</p>
-                </div>
+                <h3 className="text-xl font-bold text-gray-900 mb-4" style={{ fontFamily: "'DM Sans', sans-serif" }}>Friendly & Professional Services</h3>
+                <p className="text-gray-500 leading-relaxed">
+                  Our focus is to listen to our clients, understand their needs, and provide the exceptional level of residential and commercial cleaning service they deserve. Our professional team uses eco-friendly products and advanced techniques to ensure your space is not just clean, but truly spotless.
+                </p>
               </div>
             </ScrollReveal>
           </div>
+        </div>
+      </section>
 
-          <div className="text-center mb-16">
-            <ScrollReveal>
-              <span className="text-[var(--color-primary)] font-semibold text-sm uppercase tracking-widest">Why Choose Us</span>
-              <h3 className="text-2xl lg:text-3xl font-bold text-gray-900 mt-3" style={{ fontFamily: "'DM Sans', sans-serif" }}>What Sets Us Apart</h3>
-              <p className="text-gray-500 mt-3 max-w-2xl mx-auto">We go above and beyond to deliver exceptional cleaning services you can count on.</p>
+      <section className="w-full overflow-hidden">
+        <img
+          src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=1920&q=80"
+          alt="Professional cleaning equipment"
+          className="w-full h-[400px] lg:h-[500px] object-cover"
+        />
+      </section>
+
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
+            <ScrollReveal animation="scroll-animate-left">
+              <div>
+                <span className="text-[var(--color-primary)] font-semibold text-sm uppercase tracking-widest">Our Vision & Mission</span>
+                <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mt-3" style={{ fontFamily: "'DM Sans', sans-serif" }}>Cleaner Spaces, Happier Places</h2>
+              </div>
             </ScrollReveal>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {features.map((feature, i) => (
-              <ScrollReveal key={i}>
-                <div className="card card-hover p-8 text-center h-full">
-                  <div className="w-16 h-16 bg-[var(--color-primary-lightest)] rounded-2xl flex items-center justify-center mx-auto mb-5">
-                    <svg className="w-8 h-8 text-[var(--color-primary)]" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d={feature.icon} /></svg>
-                  </div>
-                  <h4 className="font-bold text-gray-900 mb-3" style={{ fontFamily: "'DM Sans', sans-serif" }}>{feature.title}</h4>
-                  <p className="text-gray-500 text-sm leading-relaxed">{feature.desc}</p>
+            <ScrollReveal animation="scroll-animate-right">
+              <div className="lg:col-span-2 space-y-8">
+                <div className="card p-8">
+                  <h3 className="text-xl font-bold text-gray-900 mb-4" style={{ fontFamily: "'DM Sans', sans-serif" }}>Our Vision</h3>
+                  <p className="text-gray-500 leading-relaxed">
+                    To be the most trusted and respected cleaning service provider in New Jersey, known for our unwavering commitment to quality, integrity, and customer satisfaction. We envision a world where every space we touch inspires health, comfort, and peace of mind.
+                  </p>
                 </div>
-              </ScrollReveal>
-            ))}
+                <div className="card p-8">
+                  <h3 className="text-xl font-bold text-gray-900 mb-4" style={{ fontFamily: "'DM Sans', sans-serif" }}>Our Mission</h3>
+                  <p className="text-gray-500 leading-relaxed">
+                    To deliver exceptional cleaning services that exceed expectations through attention to detail, eco-friendly practices, and a team of dedicated professionals. We strive to make every home and business we serve a cleaner, healthier, and more enjoyable environment.
+                  </p>
+                </div>
+              </div>
+            </ScrollReveal>
           </div>
         </div>
       </section>
@@ -110,9 +94,10 @@ export default function About() {
       <section className="py-16 bg-[var(--color-primary-dark)]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <ScrollReveal>
-            <h2 className="text-2xl lg:text-3xl font-bold text-white mb-6" style={{ fontFamily: "'DM Sans', sans-serif" }}>Ready to Experience the Difference?</h2>
+            <h2 className="text-2xl lg:text-3xl font-bold text-white mb-6" style={{ fontFamily: "'DM Sans', sans-serif" }}>Get a Free Estimate</h2>
+            <p className="text-green-200 mb-8">Contact us today and we'll provide a free, no-obligation quote for your cleaning needs.</p>
             <Link to="/booking" className="inline-flex items-center gap-2 bg-white text-[var(--color-primary-dark)] font-semibold py-3 px-8 rounded-lg hover:bg-green-100 transition-all">
-              Book Your Service Today
+              Send a Request
               <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" /></svg>
             </Link>
           </ScrollReveal>
