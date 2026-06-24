@@ -21,7 +21,7 @@ export default function FAQ() {
       <Navbar />
       <section className="relative bg-[var(--color-primary-dark)] text-white py-20 lg:py-28">
         <div className="absolute inset-0 overflow-hidden">
-          <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80" alt="" className="w-full h-full object-cover opacity-10" />
+          <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=1920&q=80" alt="" className="w-full h-full object-cover opacity-10" />
         </div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <span className="text-green-300 font-semibold text-sm uppercase tracking-widest">FAQ</span>

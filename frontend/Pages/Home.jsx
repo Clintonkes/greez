@@ -11,7 +11,7 @@ const serviceList = [
     desc: "Complete home cleaning including dusting, vacuuming, mopping, and sanitizing all surfaces."
   },
   {
-    img: "https://images.unsplash.com/photo-1563453392212-326f5e854473?w=600&q=80",
+    img: "https://images.unsplash.com/photo-1600880706871-5e3b218bab05?w=600&q=80",
     title: "Commercial Cleaning",
     desc: "Professional office cleaning, desk sanitization, floor care, and common area maintenance."
   },
@@ -26,7 +26,7 @@ const serviceList = [
     desc: "Comprehensive cleaning for property transitions, leaving every space spotless."
   },
   {
-    img: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&q=80",
+    img: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&q=80",
     title: "Post-Construction",
     desc: "Specialized cleanup after renovations, removing dust, debris, and construction residue."
   },
@@ -245,20 +245,6 @@ export default function Home() {
           </div>
           <div className="text-center mt-12">
             <Link to="/testimonials" className="btn-secondary">View All Reviews</Link>
-          </div>
-        </div>
-      </section>
-
-      <section className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-12 items-center opacity-60">
-            {[...Array(4)].map((_, i) => (
-              <div key={i} className="flex justify-center">
-                <div className="h-12 w-32 bg-gray-200 rounded-lg flex items-center justify-center text-gray-400 text-sm font-semibold tracking-wider">
-                  CLIENT {i + 1}
-                </div>
-              </div>
-            ))}
           </div>
         </div>
       </section>
