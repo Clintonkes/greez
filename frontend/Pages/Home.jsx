@@ -58,7 +58,7 @@ export default function Home() {
       <section className="relative text-white overflow-hidden min-h-[85vh] flex items-center">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?w=1920&q=80"
+            src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1920&q=80"
             alt="Professional cleaning service"
             className="w-full h-full object-cover"
           />

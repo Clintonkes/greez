@@ -23,35 +23,28 @@ const services = [
     id: 3,
     title: "Washing Up",
     description: "Our dishwashing and kitchen cleaning service ensures your dishes, cookware, and countertops are thoroughly cleaned and sanitized. We leave your kitchen sparkling and organized after every visit.",
-    img: "https://images.unsplash.com/photo-1586105251261-72a756497a11?w=800&q=80",
+    img: "https://images.unsplash.com/photo-1644056347416-8180f2548fc1?w=800&q=80",
     icon: "M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"
-  },
-  {
-    id: 4,
-    title: "Window Cleaning",
-    description: "Our professional window cleaning service removes dirt, smudges, and streaks from all your windows, leaving them crystal clear. We clean both interior and exterior surfaces for a brilliant shine.",
-    img: "https://images.unsplash.com/photo-1577412647305-991150c7d163?w=800&q=80",
-    icon: "M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.066 2.573c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.573 1.066c-.426 1.756-2.924 1.756-3.35 0 0 0 0 0 0 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.066-2.573c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z M15 12a3 3 0 11-6 0 3 3 0 016 0z"
   },
   {
     id: 5,
     title: "Carpet Cleaning",
     description: "Our deep carpet cleaning service removes embedded dirt, stains, and allergens using hot water extraction and eco-friendly solutions. Your carpets will look refreshed and last longer.",
-    img: "https://images.unsplash.com/photo-1584556812952-905ffd0c611a?w=800&q=80",
+    img: "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?w=800&q=80",
     icon: "M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
   },
   {
     id: 6,
     title: "Roof Cleaning",
     description: "Our roof cleaning service removes moss, algae, dirt, and debris safely without damaging your shingles. We protect your roof's integrity while restoring its original appearance.",
-    img: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800&q=80",
+    img: "https://images.unsplash.com/photo-1640653488366-f7771cd7292d?w=800&q=80",
     icon: "M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
   },
   {
     id: 7,
     title: "Office Cleaning",
     description: "Our commercial office cleaning keeps your workplace spotless and professional. We sanitize desks, empty trash, vacuum carpets, and clean common areas so your team can focus on work.",
-    img: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80",
+    img: "https://images.unsplash.com/photo-1437326300822-01d8f13c024f?w=800&q=80",
     icon: "M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"
   }
 ]
